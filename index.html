@@ -13,36 +13,90 @@
     <div class="app">
         <!-- Header -->
         <header class="header">
-            <div class="header__navbar">
-                <div class="header__navbar-list">
-                    <div class="header__navbar-item">
-                        <a href="" class="header__navbar-link">Gmail</a>
-                    </div>
-                    <div class="header__navbar-item">
-                        <a href="" class="header__navbar-link">Hình ảnh</a>
-                    </div>
-                    <div class="header__navbar-item">
-                        <div href="" class="header__navbar-menu">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>    
-                    </div>
-                    <div class="header__navbar-item">
-                        <div class="header__navbar-profile">
-                            <img src="./assets/img/wei.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ul class="header__navbar">
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-link">Gmail</a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-link">Hình ảnh</a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-link header__navbar-searchlabs">
+                        <i class="fa-solid fa-flask"></i>
+                    </a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-link header__navbar-login">Đăng nhập</a>
+                </li>
+            </ul>
         </header>
 
         <!-- Content -->
         <div class="content">
-
+            <div class="content__section">
+                <img src="./assets/img/google.png" alt="" class="content__logo">
+            </div>
+            <div class="content__section">
+                <div class="content__search">
+                    <div class="content__search-item">
+                        <a href="" class="content__search-icon-link">
+                            <i class="fa-solid fa-magnifying-glass content__search-icon magnify "></i>
+                        </a>
+                    </div>
+                    <div class="content__search-item">
+                        <input type="text" class="content__search-input">
+                    </div>
+                    <div class="content__search-item">
+                        <a href="" class="content__search-icon-link">
+                            <i class="fa-solid fa-keyboard content__search-icon"></i>
+                        </a>
+                    </div>
+                    <div class="content__search-item">
+                        <a href="" class="content__search-icon-link">
+                            <i class="fa-solid fa-microphone content__search-icon"></i>
+                        </a>
+                    </div>
+                    <div class="content__search-item">
+                        <a href="" class="content__search-icon-link">
+                            <i class="fa-solid fa-camera content__search-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="content__search-btn-group">
+                    <div class="content__search-btn">
+                        <a href="" class="content__search-btn-link">Tìm trên Google</a>
+                    </div>
+                    <div class="content__search-btn">
+                        <a href="" class="content__search-btn-link">Xem trang đầu tiên tìm được</a>
+                    </div>
+                </div>
+                <div class="content__language">
+                    Google hỗ trợ các ngôn ngữ:
+                    <a href="" class="content__language-link">English</a>
+                    <a href="" class="content__language-link">Français</a>
+                    <a href="" class="content__language-link">繁體中文</a>            
+                </div>
+            </div>
         </div>
 
         <!-- Footer -->
         <footer class="footer">
-
+            <div class="footer__location">
+                Việt Nam
+            </div>
+            <div class="footer__other">
+                <ul class="footer__other-list">
+                    <li class="footer__other-item"><a class="footer__other-link" href="#">Giới thiệu</a></li>
+                    <li class="footer__other-item"><a class="footer__other-link" href="#">Quảng cáo</a></li>
+                    <li class="footer__other-item"><a class="footer__other-link" href="#">Doanh nghiệp</a></li>
+                    <li class="footer__other-item"><a class="footer__other-link" href="#">Cách hoạt động của Tìm kiếm</a></li>
+                </ul>
+                <ul class="footer__other-list">
+                    <li class="footer__other-item"><a class="footer__other-link" href="#">Quyền riêng tư</a></li>
+                    <li class="footer__other-item"><a class="footer__other-link" href="#">Điều khoản</a></li>
+                    <li class="footer__other-item"><a class="footer__other-link" href="#">Cài đặt</a></li>
+                </ul>
+            </div>
         </footer>
     </div> 
 
